@@ -1,0 +1,25 @@
+.MainDash{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.MainDash h1{
+    margin-left: 25px;
+}
+
+
+/*______________ Media Query ______________*/
+/* Tab View */
+@media screen and (max-width: 1200px){
+    .MainDash{
+        justify-content: flex-start;
+        margin-top: 2rem;
+    }
+}
+
+/* Mobile View */
+@media screen and (max-width: 768px){
+    .MainDash{
+        align-items: center;
+    }
+}
